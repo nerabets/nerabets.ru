@@ -1,0 +1,49 @@
+.sortPanel {
+  display: flex;
+  flex-direction: column;
+}
+
+.sortField {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid rgba(245, 245, 245, 0.877);
+  border-radius: 15px;
+  background-color: rgba(252, 252, 252, 0.774);
+}
+
+.sortLabel {
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.589);
+}
+
+.sortSelect {
+  flex-grow: 1;
+  font-size: 1em;
+  padding: 5px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.sortDirectionButton {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sortDirectionButton:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.sortIcon {
+  font-size: 1em;
+  color: rgba(0, 0, 0, 0.589);
+}

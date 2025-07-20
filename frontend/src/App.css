@@ -1,0 +1,8 @@
+body {
+    background-color: var(--bg-color);
+}
+
+small {
+    color: rgba(0, 0, 0, 0.473);
+    margin: 0 20px;
+}
