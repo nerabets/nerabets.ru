@@ -1,0 +1,56 @@
+# ========== Python / FastAPI Backend ==========
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+env/
+.env
+.env.*
+*.log
+*.sqlite3
+
+# Alembic миграции (игнорировать версии, но сохранить env.py)
+alembic/versions/
+!alembic/env.py
+
+# ========== Node.js / React Frontend ==========
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.pnp.*
+.cache/
+dist/
+build/
+
+# ========== IDE и редакторы ==========
+.idea/
+.vscode/
+*.code-workspace
+
+# ========== Сборки и зависимости ==========
+build/
+dist/
+*.egg-info/
+
+# ========== Логи, временные файлы ==========
+*.log
+*.pid
+logs/
+tmp/
+
+# ========== OS-системные ==========
+.DS_Store
+Thumbs.db
+
+# ========== Прочее ==========
+coverage/
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/

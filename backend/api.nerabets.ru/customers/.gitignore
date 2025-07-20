@@ -1,0 +1,54 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+*.sqlite3
+
+# alembic migrations — игнорируем всё, кроме env.py
+alembic/versions/
+!alembic/env.py
+
+# PyCharm / VSCode / JetBrains
+.idea/
+.vscode/
+*.code-workspace
+
+# mypy / pytest / coverage
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+
+# Docker / Compose
+*.pid
+*.db
+docker-compose.override.yml
+
+# Mac / Windows
+.DS_Store
+Thumbs.db
+
+# Optional: celery/flower/logs/tmp
+celerybeat-schedule
+*.pid
+logs/
+tmp/
